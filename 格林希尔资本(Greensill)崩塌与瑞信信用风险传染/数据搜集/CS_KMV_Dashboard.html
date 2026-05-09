@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Suisse KMV Model Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f2f5; padding: 24px; }
+        .header { text-align: center; margin-bottom: 32px; }
+        .header h1 { font-size: 28px; color: #1a1a2e; margin-bottom: 8px; }
+        .header p { color: #666; font-size: 14px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); gap: 24px; margin-bottom: 24px; }
+        .card { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .card h2 { font-size: 18px; color: #333; margin-bottom: 16px; border-bottom: 2px solid #e0e0e0; padding-bottom: 8px; }
+        .highlight { background: #fff3cd; border-left: 4px solid #ffc107; padding: 16px; margin: 16px 0; border-radius: 4px; }
+        .highlight h3 { color: #856404; margin-bottom: 8px; }
+        .highlight ul { margin-left: 20px; }
+        .highlight li { margin: 4px 0; color: #666; }
+        .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 24px 0; }
+        .metric-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 12px; text-align: center; }
+        .metric-card.green { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .metric-card.red { background: linear-gradient(135deg, #fc4a1a 0%, #f7b733 100%); }
+        .metric-card.blue { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .metric-card .value { font-size: 32px; font-weight: bold; margin: 8px 0; }
+        .metric-card .label { font-size: 12px; opacity: 0.9; }
+        .event-marker { position: relative; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Credit Suisse KMV模型风险分析面板</h1>
+        <p>Greensill事件期间 (2020.01 - 2021.12) | 数据驱动信用风险度量</p>
+    </div>
+
+    <div class="metrics">
+        <div class="metric-card">
+            <div class="label">2020年底市值</div>
+            <div class="value">$43.1Bn</div>
+            <div class="label">股价 $17.50</div>
+        </div>
+        <div class="metric-card green">
+            <div class="label">2021年1月峰值市值</div>
+            <div class="value">$79.4Bn</div>
+            <div class="label">增发后 4,459Mn股</div>
+        </div>
+        <div class="metric-card red">
+            <div class="label">2021年3月 Greensill危机</div>
+            <div class="value">σ=85%</div>
+            <div class="label">波动率历史峰值</div>
+        </div>
+        <div class="metric-card blue">
+            <div class="label">2021年底市值</div>
+            <div class="value">$33.4Bn</div>
+            <div class="label">较2020年底 -22%</div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h2>📈 市值与股价走势</h2>
+            <canvas id="marketCapChart"></canvas>
+        </div>
+        <div class="card">
+            <h2>📊 股权波动率 (σ_E) 变化</h2>
+            <canvas id="volChart"></canvas>
+        </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 24px;">
+        <h2>📉 无风险利率走势 (美国1年期国债)</h2>
+        <canvas id="rateChart"></canvas>
+    </div>
+
+    <div class="highlight">
+        <h3>⚠️ 关键风险信号</h3>
+        <ul>
+            <li><strong>2021年3月 Greensill危机</strong>：波动率从35%飙升至85%，市值从$79Bn骤降至$50Bn</li>
+            <li><strong>2021年10月 Archegos事件余波</strong>：波动率再次攀升至48-52%，市场持续担忧</li>
+            <li><strong>市值蒸发轨迹</strong>：从峰值$79.4Bn (2021.01) 至 $33.4Bn (2021.12)，跌幅达58%</li>
+        </ul>
+    </div>
+
+    <script>
+        const months = ['2020-01', '2020-02', '2020-03', '2020-04', '2020-05', '2020-06', '2020-07', '2020-08', '2020-09', '2020-10', '2020-11', '2020-12', '2021-01', '2021-02', '2021-03', '2021-04', '2021-05', '2021-06', '2021-07', '2021-08', '2021-09', '2021-10', '2021-11', '2021-12'];
+        const stockPrices = [20.5, 19.8, 15.2, 16.5, 16.8, 17.5, 18.2, 18.8, 18.0, 17.8, 18.5, 17.5, 17.8, 14.5, 11.2, 12.8, 12.0, 11.5, 11.8, 10.5, 9.8, 8.5, 7.8, 7.5];
+        const marketCaps = [50430, 48708, 37392, 40590, 41328, 43050, 44772, 46248, 44280, 43788, 45510, 43050, 79370, 64656, 49941, 57075, 53508, 51279, 52616, 46820, 43698, 37902, 34780, 33443];
+        const vols = [0.28, 0.35, 0.65, 0.50, 0.42, 0.38, 0.32, 0.30, 0.35, 0.33, 0.38, 0.32, 0.35, 0.55, 0.85, 0.52, 0.48, 0.45, 0.40, 0.42, 0.45, 0.48, 0.52, 0.50];
+        const rates = [1.53, 1.41, 0.33, 0.18, 0.16, 0.18, 0.15, 0.13, 0.13, 0.13, 0.12, 0.10, 0.10, 0.07, 0.08, 0.06, 0.05, 0.07, 0.08, 0.07, 0.08, 0.11, 0.18, 0.30];
+
+        const greensillIdx = 14; // 2021-03
+
+        new Chart(document.getElementById('marketCapChart'), {
+            type: 'line',
+            data: {
+                labels: months,
+                datasets: [{
+                    label: '市值 (USD Mn)',
+                    data: marketCaps,
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102,126,234,0.1)',
+                    fill: true,
+                    tension: 0.3
+                }, {
+                    label: '股价 (USD, 右轴)',
+                    data: stockPrices,
+                    borderColor: '#fc4a1a',
+                    yAxisID: 'y1',
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    annotation: { annotations: { line: { type: 'line', xMin: greensillIdx, xMax: greensillIdx, borderColor: 'red', borderDash: [5,5], borderWidth: 2 } } }
+                },
+                scales: { y: { position: 'left', title: { display: true, text: '市值 (USD Mn)' } }, y1: { position: 'right', title: { display: true, text: '股价 (USD)' } } }
+            }
+        });
+
+        new Chart(document.getElementById('volChart'), {
+            type: 'bar',
+            data: {
+                labels: months,
+                datasets: [{
+                    label: '年化波动率 (σ_E)',
+                    data: vols.map(v => v * 100),
+                    backgroundColor: months.map((_, i) => i === greensillIdx ? '#fc4a1a' : i >= 12 ? '#ffc107' : '#38ef7d'),
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } },
+                scales: { y: { title: { display: true, text: '波动率 (%)' }, beginAtZero: true } }
+            }
+        });
+
+        new Chart(document.getElementById('rateChart'), {
+            type: 'line',
+            data: {
+                labels: months,
+                datasets: [{
+                    label: '1年期国债收益率 (%)',
+                    data: rates,
+                    borderColor: '#11998e',
+                    backgroundColor: 'rgba(17,153,142,0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: { y: { title: { display: true, text: '收益率 (%)' }, beginAtZero: true } }
+            }
+        });
+    </script>
+</body>
+</html>

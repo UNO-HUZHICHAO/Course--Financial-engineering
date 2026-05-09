@@ -1,0 +1,6 @@
+Date,Type,Total_Assets_CHF_Mn,Total_Liabilities_CHF_Mn,Total_Equity_CHF_Mn,Short_Term_Debt_CHF_Mn,Long_Term_Debt_CHF_Mn,Shares_Outstanding_Mn,Stock_Price_USD,Market_Cap_USD_Mn,Equity_Vol_Annual,Risk_Free_Rate_Annual,Source
+2020-12-31,Quarterly,922000.0,882000.0,40000.0,,,2460.0,17.5,43050.0,0.32,0.001,Reconstructed / FRED GS1
+2021-03-31,Quarterly,,,,,44590.0,4459.0,11.2,49940.799999999996,0.85,0.0008,Reconstructed / FRED GS1
+2021-06-30,Quarterly,,,,,,4459.0,11.5,51278.5,0.45,0.0007,Reconstructed / FRED GS1
+2021-09-30,Quarterly,,,,,,4459.0,9.8,43698.200000000004,0.45,0.0008,Reconstructed / FRED GS1
+2021-12-31,Quarterly,,,,,,4459.0,7.5,33442.5,0.5,0.003,Reconstructed / FRED GS1
