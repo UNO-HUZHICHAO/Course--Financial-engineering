@@ -1,0 +1,43 @@
+============================================================
+信用风险预测模型 - 结果摘要
+============================================================
+
+[模型配置]
+  模型类型: LightGBM + CatBoost
+  交叉验证: 3 折 StratifiedKFold
+  融合策略: 投票平均
+  总模型数: 6 个
+
+[LightGBM 结果]
+  各折 AUC: ['0.7668', '0.7645', '0.7664']
+  平均 AUC: 0.7659
+  AUC 标准差: 0.0010
+
+[CatBoost 结果]
+  各折 AUC: ['0.7582', '0.7563', '0.7586']
+  平均 AUC: 0.7577
+  AUC 标准差: 0.0010
+
+[预测统计]
+  测试样本数: 10
+  预测概率范围: [0.0086, 0.2860]
+  预测概率均值: 0.0863
+  预测概率中位数: 0.0684
+
+[特征重要性 Top 10]
+  1. annuity_780A: 170.3405
+  2. days360_512L: 165.1324
+  3. price_1097A: 162.6868
+  4. pmtssum_45A: 155.4211
+  5. pmtnum_254L: 153.8150
+  6. lastcancelreason_561M: 133.3722
+  7. credamount_770A: 127.3179
+  8. totalsettled_863A: 123.1044
+  9. thirdquarter_1082L: 118.8295
+  10. lastapprcommoditycat_1041M: 116.5223
+
+[输出文件]
+  提交文件: /Users/huzhichao/Desktop/credit_risk_model/simple_version/results/submission.csv
+  特征重要性: /Users/huzhichao/Desktop/credit_risk_model/simple_version/results/feature_importance.csv
+  结果摘要: /Users/huzhichao/Desktop/credit_risk_model/simple_version/results/results_summary.txt
+  可视化图表: /Users/huzhichao/Desktop/credit_risk_model/simple_version/results/*.png
