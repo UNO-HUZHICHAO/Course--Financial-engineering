@@ -1,0 +1,300 @@
+{
+  "copied": [
+    {
+      "source": "01_paper_manuscript/huzhichao_year_paper_final.docx",
+      "target": "paper/huzhichao_year_paper_final.docx",
+      "size_bytes": 6450421
+    },
+    {
+      "source": "01_paper_manuscript/year_paper.pdf",
+      "target": "paper/year_paper.pdf",
+      "size_bytes": 6879250
+    },
+    {
+      "source": "01_paper_manuscript/theoretical_framework.md",
+      "target": "paper/theoretical_framework.md",
+      "size_bytes": 9420
+    },
+    {
+      "source": "01_paper_manuscript/paper_main_text/appendix_a_data_processing_supplement.md",
+      "target": "paper/appendix_a_data_processing_supplement.md",
+      "size_bytes": 5946
+    },
+    {
+      "source": "01_paper_manuscript/paper_last_three_chapters/last_three_chapters_full_text.md",
+      "target": "paper/last_three_chapters_full_text.md",
+      "size_bytes": 15326
+    },
+    {
+      "source": "01_paper_manuscript/paper_last_three_chapters/figure_table_notes.md",
+      "target": "paper/figure_table_notes.md",
+      "size_bytes": 12528
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_main_text/fig_1_factor_system_overview.png",
+      "target": "figures/main_text/fig_1_factor_system_overview.png",
+      "size_bytes": 207851
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_main_text/fig_2_factor_ic_and_t_stat_diagnostics.png",
+      "target": "figures/main_text/fig_2_factor_ic_and_t_stat_diagnostics.png",
+      "size_bytes": 277839
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_main_text/fig_3_factor_group_cumulative_returns.png",
+      "target": "figures/main_text/fig_3_factor_group_cumulative_returns.png",
+      "size_bytes": 151804
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_main_text/fig_4_edge_ablation_alpha_comparison.png",
+      "target": "figures/main_text/fig_4_edge_ablation_alpha_comparison.png",
+      "size_bytes": 88272
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_main_text/fig_5_fusion_mechanism_comparison.png",
+      "target": "figures/main_text/fig_5_fusion_mechanism_comparison.png",
+      "size_bytes": 127867
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_main_text/fig_6_portfolio_construction_comparison.png",
+      "target": "figures/main_text/fig_6_portfolio_construction_comparison.png",
+      "size_bytes": 215513
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_main_text/fig_7_cumulative_excess_nav_curve.png",
+      "target": "figures/main_text/fig_7_cumulative_excess_nav_curve.png",
+      "size_bytes": 293910
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_main_text/fig_8_version_evolution_alpha_fix_path.png",
+      "target": "figures/main_text/fig_8_version_evolution_alpha_fix_path.png",
+      "size_bytes": 165067
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_last_three_chapters/fig_table_2_factor_ic_and_t_stat_diagnostics.png",
+      "target": "figures/final_chapters/fig_table_2_factor_ic_and_t_stat_diagnostics.png",
+      "size_bytes": 694351
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_last_three_chapters/fig_table_3_factor_group_cumulative_return_monotonicity.png",
+      "target": "figures/final_chapters/fig_table_3_factor_group_cumulative_return_monotonicity.png",
+      "size_bytes": 1000636
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_last_three_chapters/fig_table_4_edge_ablation_alpha_comparison.png",
+      "target": "figures/final_chapters/fig_table_4_edge_ablation_alpha_comparison.png",
+      "size_bytes": 282206
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_last_three_chapters/fig_table_5_fusion_mechanism_performance_comparison.png",
+      "target": "figures/final_chapters/fig_table_5_fusion_mechanism_performance_comparison.png",
+      "size_bytes": 553239
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_last_three_chapters/fig_table_6_portfolio_construction_comparison.png",
+      "target": "figures/final_chapters/fig_table_6_portfolio_construction_comparison.png",
+      "size_bytes": 510247
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_last_three_chapters/fig_table_7_cumulative_excess_nav_curve.png",
+      "target": "figures/final_chapters/fig_table_7_cumulative_excess_nav_curve.png",
+      "size_bytes": 763175
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/paper_last_three_chapters/fig_table_8_dual_seed_performance_summary.png",
+      "target": "figures/final_chapters/fig_table_8_dual_seed_performance_summary.png",
+      "size_bytes": 414715
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/introduction.svg",
+      "target": "figures/introduction.svg",
+      "size_bytes": 13820
+    },
+    {
+      "source": "02_figures_and_tables/paper_figures/literature_review_1.svg",
+      "target": "figures/literature_review_1.svg",
+      "size_bytes": 10814
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/src/analysis/factor_diagnostics.py",
+      "target": "src/gl_v4/src/analysis/factor_diagnostics.py",
+      "size_bytes": 25220
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/src/analysis/gat_embedding_diagnostics.py",
+      "target": "src/gl_v4/src/analysis/gat_embedding_diagnostics.py",
+      "size_bytes": 8386
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/src/analysis/rebuild_strategy_results.py",
+      "target": "src/gl_v4/src/analysis/rebuild_strategy_results.py",
+      "size_bytes": 3682
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/src/init.py",
+      "target": "src/gl_v4/src/init.py",
+      "size_bytes": 0
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/src/model/init.py",
+      "target": "src/gl_v4/src/model/init.py",
+      "size_bytes": 0
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/src/model/model.py",
+      "target": "src/gl_v4/src/model/model.py",
+      "size_bytes": 37905
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/requirements.txt",
+      "target": "src/gl_v4/requirements.txt",
+      "size_bytes": 141
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/run_full_autodl.sh",
+      "target": "src/gl_v4/run_full_autodl.sh",
+      "size_bytes": 2872
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/run_on_autodl.py",
+      "target": "src/gl_v4/run_on_autodl.py",
+      "size_bytes": 2000
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/setup_cloud.sh",
+      "target": "src/gl_v4/setup_cloud.sh",
+      "size_bytes": 3402
+    },
+    {
+      "source": "03_code_and_models/empirical_analysis/gl_v4/smoke_test.py",
+      "target": "src/gl_v4/smoke_test.py",
+      "size_bytes": 10069
+    },
+    {
+      "source": "03_code_and_models/scripts/phase1_statistical_tests.py",
+      "target": "src/analysis_scripts/phase1_statistical_tests.py",
+      "size_bytes": 29981
+    },
+    {
+      "source": "03_code_and_models/scripts/phase3_visualization.py",
+      "target": "src/analysis_scripts/phase3_visualization.py",
+      "size_bytes": 17410
+    },
+    {
+      "source": "03_code_and_models/scripts/reconstruct_returns.py",
+      "target": "src/analysis_scripts/reconstruct_returns.py",
+      "size_bytes": 9180
+    },
+    {
+      "source": "03_code_and_models/paper_main_text/visualization.py",
+      "target": "src/paper_tools/visualization.py",
+      "size_bytes": 24179
+    },
+    {
+      "source": "03_code_and_models/paper_main_text/generate_docx.py",
+      "target": "src/paper_tools/generate_docx.py",
+      "size_bytes": 83543
+    },
+    {
+      "source": "03_code_and_models/paper_last_three_chapters/visualization_ch5_7.py",
+      "target": "src/paper_tools/visualization_ch5_7.py",
+      "size_bytes": 47064
+    },
+    {
+      "source": "05_results/empirical_analysis/result/backtest_report.md",
+      "target": "results/final_backtest/backtest_report.md",
+      "size_bytes": 3161
+    },
+    {
+      "source": "05_results/empirical_analysis/result/layered_equal_weight/backtest_report.md",
+      "target": "results/final_backtest/layered_equal_weight/backtest_report.md",
+      "size_bytes": 3161
+    },
+    {
+      "source": "05_results/empirical_analysis/result/layered_equal_weight/optimal_weights.csv",
+      "target": "results/final_backtest/layered_equal_weight/optimal_weights.csv",
+      "size_bytes": 4012147
+    },
+    {
+      "source": "05_results/empirical_analysis/result/layered_equal_weight/optimizer_diagnostics.csv",
+      "target": "results/final_backtest/layered_equal_weight/optimizer_diagnostics.csv",
+      "size_bytes": 201188
+    },
+    {
+      "source": "05_results/empirical_analysis/result/optimal_weights.csv",
+      "target": "results/final_backtest/optimal_weights.csv",
+      "size_bytes": 4012147
+    },
+    {
+      "source": "05_results/empirical_analysis/result/qp_conservative/backtest_report.md",
+      "target": "results/final_backtest/qp_conservative/backtest_report.md",
+      "size_bytes": 3175
+    },
+    {
+      "source": "05_results/empirical_analysis/result/qp_conservative/optimal_weights.csv",
+      "target": "results/final_backtest/qp_conservative/optimal_weights.csv",
+      "size_bytes": 1501491
+    },
+    {
+      "source": "05_results/empirical_analysis/result/qp_conservative/optimizer_diagnostics.csv",
+      "target": "results/final_backtest/qp_conservative/optimizer_diagnostics.csv",
+      "size_bytes": 221310
+    },
+    {
+      "source": "05_results/empirical_analysis/result/strategy_comparison.csv",
+      "target": "results/final_backtest/strategy_comparison.csv",
+      "size_bytes": 869
+    },
+    {
+      "source": "05_results/empirical_analysis/result/strategy_comparison.md",
+      "target": "results/final_backtest/strategy_comparison.md",
+      "size_bytes": 973
+    },
+    {
+      "source": "06_docs_and_notes/empirical_analysis/star50_index_enhancement_strategy_overview_and_conclusions.md",
+      "target": "docs/project_overview_and_conclusions.md",
+      "size_bytes": 26921
+    },
+    {
+      "source": "06_docs_and_notes/empirical_analysis/docs/data_description.md",
+      "target": "docs/data_description_original.md",
+      "size_bytes": 19485
+    },
+    {
+      "source": "06_docs_and_notes/empirical_analysis/docs/modeling_algorithm_details_5.27）.md",
+      "target": "docs/modeling_algorithm_details.md",
+      "size_bytes": 13550
+    },
+    {
+      "source": "06_docs_and_notes/empirical_analysis/docs/project_framework_details.md",
+      "target": "docs/project_framework_details.md",
+      "size_bytes": 21007
+    },
+    {
+      "source": "06_docs_and_notes/revision_notes/figures_captions.md",
+      "target": "docs/figure_captions.md",
+      "size_bytes": 2592
+    },
+    {
+      "source": "08_github_metadata/rename_manifest.json",
+      "target": "metadata/rename_manifest.json",
+      "size_bytes": 767825
+    },
+    {
+      "source": "08_github_metadata/organization_manifest.json",
+      "target": "metadata/organization_manifest.json",
+      "size_bytes": 843119
+    },
+    {
+      "source": "08_github_metadata/skipped_files.md",
+      "target": "metadata/skipped_files_from_full_conversion.md",
+      "size_bytes": 12031
+    }
+  ],
+  "omitted": [
+    {
+      "source": "05_results/empirical_analysis/result/predictions.csv",
+      "reason": "omitted from formal version because detailed row-level predictions are not needed for repository display"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" style="background-color: #F8FAFC; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <defs>
+        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.06" />
+        </filter>
+        
+        <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#94A3B8"/>
+        </marker>
+        
+        <marker id="arrow-down" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#3B82F6"/>
+        </marker>
+
+        <linearGradient id="archGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2563EB" />
+            <stop offset="100%" stop-color="#3B82F6" />
+        </linearGradient>
+    </defs>
+
+    <text x="600" y="45" font-size="24" font-weight="bold" fill="#0F172A" text-anchor="middle" letter-spacing="2">图神经网络架构演进与金融应用场景实证</text>
+    <line x1="450" y1="65" x2="750" y2="65" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+
+    <g transform="translate(0, 90)">
+        <rect x="55" y="0" width="160" height="32" rx="4" fill="#E2E8F0" />
+        <text x="135" y="21" font-size="16" font-weight="bold" fill="#334155" text-anchor="middle">架构演进脉络</text>
+
+        <rect x="345" y="0" width="160" height="32" rx="4" fill="#E2E8F0" />
+        <text x="425" y="21" font-size="16" font-weight="bold" fill="#334155" text-anchor="middle">核心机制与场景</text>
+
+        <rect x="655" y="0" width="160" height="32" rx="4" fill="#E2E8F0" />
+        <text x="735" y="21" font-size="16" font-weight="bold" fill="#334155" text-anchor="middle">优势与信号来源</text>
+
+        <rect x="965" y="0" width="160" height="32" rx="4" fill="#E2E8F0" />
+        <text x="1045" y="21" font-size="16" font-weight="bold" fill="#334155" text-anchor="middle">局限与实证挑战</text>
+    </g>
+
+    <g transform="translate(0, 140)">
+        <line x1="225" y1="50" x2="315" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="535" y1="50" x2="625" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="845" y1="50" x2="935" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        
+        <line x1="135" y1="100" x2="135" y2="130" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrow-down)"/>
+
+        <rect x="45" y="0" width="180" height="100" rx="6" fill="url(#archGrad)" stroke="#1D4ED8" stroke-width="2" filter="url(#shadow)"/>
+        <text x="135" y="56" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">静态图卷积网络</text>
+
+        <rect x="315" y="0" width="220" height="100" rx="6" fill="#ECFEFF" stroke="#06B6D4" stroke-width="2" filter="url(#shadow)"/>
+        <text x="425" y="44" font-size="14" fill="#0F172A" text-anchor="middle">基于预定义行业关系</text>
+        <text x="425" y="68" font-size="14" fill="#0F172A" text-anchor="middle">进行拉普拉斯平滑聚合</text>
+
+        <rect x="625" y="0" width="220" height="100" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#shadow)"/>
+        <text x="735" y="32" font-size="14" fill="#0F172A" text-anchor="middle">结构简单，易于实现对</text>
+        <text x="735" y="56" font-size="14" fill="#0F172A" text-anchor="middle">同行业资产系统性风险</text>
+        <text x="735" y="80" font-size="14" fill="#0F172A" text-anchor="middle">因子的精准剥离</text>
+
+        <rect x="935" y="0" width="220" height="100" rx="6" fill="#FFF1F2" stroke="#F43F5E" stroke-width="2" filter="url(#shadow)"/>
+        <text x="1045" y="32" font-size="14" fill="#0F172A" text-anchor="middle">无法应对动态资金轮动</text>
+        <text x="1045" y="56" font-size="14" fill="#0F172A" text-anchor="middle">极易陷入过平滑导致选</text>
+        <text x="1045" y="80" font-size="14" fill="#0F172A" text-anchor="middle">股信号严重同质化</text>
+    </g>
+
+    <g transform="translate(0, 270)">
+        <line x1="225" y1="50" x2="315" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="535" y1="50" x2="625" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="845" y1="50" x2="935" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        
+        <line x1="135" y1="100" x2="135" y2="130" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrow-down)"/>
+
+        <rect x="45" y="0" width="180" height="100" rx="6" fill="url(#archGrad)" stroke="#1D4ED8" stroke-width="2" filter="url(#shadow)"/>
+        <text x="135" y="56" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">图注意力网络</text>
+
+        <rect x="315" y="0" width="220" height="100" rx="6" fill="#ECFEFF" stroke="#06B6D4" stroke-width="2" filter="url(#shadow)"/>
+        <text x="425" y="32" font-size="14" fill="#0F172A" text-anchor="middle">引入自注意力机制</text>
+        <text x="425" y="56" font-size="14" fill="#0F172A" text-anchor="middle">动态为邻接网络节点</text>
+        <text x="425" y="80" font-size="14" fill="#0F172A" text-anchor="middle">分配非对称权重</text>
+
+        <rect x="625" y="0" width="220" height="100" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#shadow)"/>
+        <text x="735" y="32" font-size="14" fill="#0F172A" text-anchor="middle">能够识别供应链网络中</text>
+        <text x="735" y="56" font-size="14" fill="#0F172A" text-anchor="middle">不同层级企业的不对等</text>
+        <text x="735" y="80" font-size="14" fill="#0F172A" text-anchor="middle">核心影响力</text>
+
+        <rect x="935" y="0" width="220" height="100" rx="6" fill="#FFF1F2" stroke="#F43F5E" stroke-width="2" filter="url(#shadow)"/>
+        <text x="1045" y="32" font-size="14" fill="#0F172A" text-anchor="middle">仍受限于静态预定义拓扑</text>
+        <text x="1045" y="56" font-size="14" fill="#0F172A" text-anchor="middle">高噪声市场环境下注意力</text>
+        <text x="1045" y="80" font-size="14" fill="#0F172A" text-anchor="middle">权重极易产生过拟合</text>
+    </g>
+
+    <g transform="translate(0, 400)">
+        <line x1="225" y1="50" x2="315" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="535" y1="50" x2="625" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="845" y1="50" x2="935" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        
+        <line x1="135" y1="100" x2="135" y2="130" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrow-down)"/>
+
+        <rect x="45" y="0" width="180" height="100" rx="6" fill="url(#archGrad)" stroke="#1D4ED8" stroke-width="2" filter="url(#shadow)"/>
+        <text x="135" y="44" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">异构图网络</text>
+        <text x="135" y="70" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">与元路径网络</text>
+
+        <rect x="315" y="0" width="220" height="100" rx="6" fill="#ECFEFF" stroke="#06B6D4" stroke-width="2" filter="url(#shadow)"/>
+        <text x="425" y="44" font-size="14" fill="#0F172A" text-anchor="middle">定义特定元路径结构</text>
+        <text x="425" y="68" font-size="14" fill="#0F172A" text-anchor="middle">捕捉跨实体高阶语义关系</text>
+
+        <rect x="625" y="0" width="220" height="100" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#shadow)"/>
+        <text x="735" y="32" font-size="14" fill="#0F172A" text-anchor="middle">有效缓解过平滑问题</text>
+        <text x="735" y="56" font-size="14" fill="#0F172A" text-anchor="middle">提取超越一阶邻接网络</text>
+        <text x="735" y="80" font-size="14" fill="#0F172A" text-anchor="middle">的深层隐藏关联</text>
+
+        <rect x="935" y="0" width="220" height="100" rx="6" fill="#FFF1F2" stroke="#F43F5E" stroke-width="2" filter="url(#shadow)"/>
+        <text x="1045" y="32" font-size="14" fill="#0F172A" text-anchor="middle">极度依赖先验专家经验</text>
+        <text x="1045" y="56" font-size="14" fill="#0F172A" text-anchor="middle">高维稀疏图谱特征之下</text>
+        <text x="1045" y="80" font-size="14" fill="#0F172A" text-anchor="middle">计算复杂度面临剧增</text>
+    </g>
+
+    <g transform="translate(0, 530)">
+        <line x1="225" y1="50" x2="315" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="535" y1="50" x2="625" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="845" y1="50" x2="935" y2="50" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+
+        <rect x="45" y="0" width="180" height="100" rx="6" fill="url(#archGrad)" stroke="#1D4ED8" stroke-width="2" filter="url(#shadow)"/>
+        <text x="135" y="44" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">状态空间图网络</text>
+        <text x="135" y="70" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">与时空图网络</text>
+
+        <rect x="315" y="0" width="220" height="100" rx="6" fill="#ECFEFF" stroke="#06B6D4" stroke-width="2" filter="url(#shadow)"/>
+        <text x="425" y="44" font-size="14" fill="#0F172A" text-anchor="middle">深度结合时序分析模型</text>
+        <text x="425" y="68" font-size="14" fill="#0F172A" text-anchor="middle">在时间与图谱轴动态建模</text>
+
+        <rect x="625" y="0" width="220" height="100" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#shadow)"/>
+        <text x="735" y="32" font-size="14" fill="#0F172A" text-anchor="middle">较好捕捉领先滞后溢出</text>
+        <text x="735" y="56" font-size="14" fill="#0F172A" text-anchor="middle">效应；自适应图谱结构的</text>
+        <text x="735" y="80" font-size="14" fill="#0F172A" text-anchor="middle">动态演化脉络</text>
+
+        <rect x="935" y="0" width="220" height="100" rx="6" fill="#FFF1F2" stroke="#F43F5E" stroke-width="2" filter="url(#shadow)"/>
+        <text x="1045" y="32" font-size="14" fill="#0F172A" text-anchor="middle">算力训练成本极其高昂</text>
+        <text x="1045" y="56" font-size="14" fill="#0F172A" text-anchor="middle">面对极端市场环境时需引</text>
+        <text x="1045" y="80" font-size="14" fill="#0F172A" text-anchor="middle">入额外的非线性降噪机制</text>
+    </g>
+</svg>

@@ -1,0 +1,113 @@
+# Skipped Files
+
+These files were not copied into the GitHub upload folder.
+
+- `.DS_Store` — cache/hidden/system path
+- `.claude` — cache/hidden/system path
+- `.claude/settings.local.json` — cache/hidden/system path
+- `学年论文后三章正文/__pycache__` — cache/hidden/system path
+- `学年论文后三章正文/__pycache__/visualization_ch5_7.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/.DS_Store` — cache/hidden/system path
+- `学年论文实证部分/.claude` — cache/hidden/system path
+- `学年论文实证部分/.claude/settings.local.json` — cache/hidden/system path
+- `学年论文实证部分/.trae` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents/GL V2 GAT季度财务因子增强计划.md` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents/GLV4双流抢救完整总结与交接.md` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents/GLV4双流抢救诊断优先计划.md` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents/GL_V3_Enhanced因子接入与低成本验证计划.md` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents/Tushare财务因子由7维调整为5维实施计划.md` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents/回测结果深度排查与归因执行计划.md` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents/科创50增强策略修改方案.md` — cache/hidden/system path
+- `学年论文实证部分/.trae/documents/科创板候选量价因子映射筛选计划.md` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/__pycache__/run_backtest.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/backtest/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/backtest/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/backtest/__pycache__/backtest_engine.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/backtest/__pycache__/portfolio_optimizer.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/backtest/__pycache__/reporter.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/data/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/data/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/data/__pycache__/data_module.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/model/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/model/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V2/code/src/model/__pycache__/model.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V4/__pycache__/smoke_test.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/data/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V4/data/__pycache__/fetch_tushare_data.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/data/__pycache__/gat_data_processor.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/data/__pycache__/process_star_market.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/__pycache__/run_backtest.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/analysis/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/analysis/__pycache__/factor_diagnostics.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/analysis/__pycache__/gat_embedding_diagnostics.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/backtest/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/backtest/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/backtest/__pycache__/backtest_engine.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/backtest/__pycache__/portfolio_optimizer.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/backtest/__pycache__/reporter.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/data/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/data/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/data/__pycache__/data_module.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/model/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/model/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL V4/src/model/__pycache__/model.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/__pycache__/smoke_test.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/data/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/data/__pycache__/fetch_tushare_data.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/data/__pycache__/gat_data_processor.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/data/__pycache__/process_star_market.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/__pycache__/run_backtest.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/analysis/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/analysis/__pycache__/factor_diagnostics.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/backtest/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/backtest/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/backtest/__pycache__/backtest_engine.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/backtest/__pycache__/portfolio_optimizer.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/backtest/__pycache__/reporter.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/data/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/data/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/data/__pycache__/data_module.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/model/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/model/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/GL_V3_Enhanced/code/src/model/__pycache__/model.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/archive/前期弯路/准备/.workbuddy` — cache/hidden/system path
+- `学年论文实证部分/archive/前期弯路/准备/.workbuddy/memory` — cache/hidden/system path
+- `学年论文实证部分/archive/前期弯路/准备/.workbuddy/memory/2026-04-22.md` — cache/hidden/system path
+- `学年论文实证部分/archive/前期弯路/准备/.workbuddy/memory/MEMORY.md` — cache/hidden/system path
+- `学年论文实证部分/archive/前期弯路/准备/.workbuddy/settings.local.json` — cache/hidden/system path
+- `学年论文实证部分/archive/前期弯路/学年论文GAT原始数据/.claude` — cache/hidden/system path
+- `学年论文实证部分/archive/前期弯路/学年论文GAT原始数据/.claude/settings.local.json` — cache/hidden/system path
+- `学年论文实证部分/data/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/data/__pycache__/fetch_tushare_data.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/data/__pycache__/gat_data_processor.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/data/raw/lstm/日个股回报率文件090213438(仅供哈佛大学使用)/TRD_Dalyr.csv` — exceeds GitHub upload limit safety threshold (128515619 bytes)
+- `学年论文实证部分/data/raw/lstm/日个股回报率文件090213438(仅供哈佛大学使用)/TRD_Dalyr1.csv` — exceeds GitHub upload limit safety threshold (128372341 bytes)
+- `学年论文实证部分/data/raw/lstm/日个股回报率文件090213438(仅供哈佛大学使用)/TRD_Dalyr2.csv` — exceeds GitHub upload limit safety threshold (129294552 bytes)
+- `学年论文实证部分/data/raw/lstm/日个股回报率文件090213438(仅供哈佛大学使用)/TRD_Dalyr3.csv` — exceeds GitHub upload limit safety threshold (128691661 bytes)
+- `学年论文实证部分/data/raw/lstm/日个股回报率文件090213438(仅供哈佛大学使用)/TRD_Dalyr4.csv` — exceeds GitHub upload limit safety threshold (129411649 bytes)
+- `学年论文实证部分/glv4_autodl_bundle.tar.gz` — exceeds GitHub upload limit safety threshold (108188750 bytes)
+- `学年论文实证部分/src/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/src/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/__pycache__/run_backtest.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/analysis/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/src/analysis/__pycache__/diagnose_backtest_results.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/analysis/__pycache__/rebuild_strategy_results.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/backtest/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/src/backtest/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/backtest/__pycache__/backtest_engine.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/backtest/__pycache__/portfolio_optimizer.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/backtest/__pycache__/reporter.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/data/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/src/data/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/data/__pycache__/data_module.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/model/__pycache__` — cache/hidden/system path
+- `学年论文实证部分/src/model/__pycache__/__init__.cpython-312.pyc` — cache/hidden/system path
+- `学年论文实证部分/src/model/__pycache__/model.cpython-312.pyc` — cache/hidden/system path
